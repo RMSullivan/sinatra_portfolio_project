@@ -11,23 +11,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190101185947) do
-
-  create_table "autos", force: :cascade do |t|
-    t.string  "make"
-    t.string  "model"
-    t.string  "year"
-    t.string  "mpg"
-    t.string  "tank"
-    t.string  "gas"
-    t.integer "user_id"
-  end
-
-  create_table "user", force: :cascade do |t|
-    t.string "email"
-    t.string "pswd"
-    t.string "fname"
-    t.string "lname"
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end
