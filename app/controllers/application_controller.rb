@@ -8,7 +8,12 @@ class ApplicationController < Sinatra::Base
   end
 
   get "/" do
+    @autos = Auto.all
     erb :index
+  end
+
+  get "/join" do
+    erb :join
   end
 
   get '/test' do

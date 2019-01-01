@@ -1,6 +1,14 @@
 <div class="container">
 
-    <h2>Hello Lady!</h2>
+<h2>Hello Lady!</h2>
+  <% @autos.each do |auto| %>
+    <%= auto.make %>
+    <%= auto.model %>
+    <%= auto.mpg %>
+    <% end %>
+
+
+
 
 
 </div>
