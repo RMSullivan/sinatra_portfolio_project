@@ -1,6 +1,6 @@
 # Learn.co MVC CRUD Rideshare Cost App
 #Project Requirements:
-#[ ]Build an MVC Sinatra application.
+#[x ]Build an MVC Sinatra application.
 
 #[ ]Use ActiveRecord with Sinatra.
 
@@ -19,4 +19,3 @@
 #[ ]Validate user input so bad data cannot be persisted to the database.
 
 #[ ]BONUS: Display validation failures to user with error messages. (This is an optional feature, challenge yourself and give it a shot!)
-
