@@ -12,8 +12,21 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
 
+  post "/" do
+  end
+
   get "/join" do
     erb :join
+  end
+
+  post "/join" do
+  end
+
+  get "/new" do
+    erb :new
+  end
+
+  post "/new" do
   end
 
   get '/test' do
