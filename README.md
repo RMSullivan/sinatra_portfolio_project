@@ -6,7 +6,7 @@
 
 #[ ]Use multiple models.
 
-#[ ]Use at least one has_many relationship on a User model and one belongs_to relationship on another model.
+#[X]Use at least one has_many relationship on a User model and one belongs_to relationship on another model.
 
 #[ ]Must have user accounts - users must be able to sign up, sign in, and sign out.
 
