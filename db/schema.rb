@@ -14,13 +14,12 @@
 ActiveRecord::Schema.define(version: 20190101185947) do
 
   create_table "autos", force: :cascade do |t|
-    t.string  "make"
-    t.string  "model"
-    t.string  "year"
-    t.string  "mpg"
-    t.string  "tank"
-    t.string  "gas"
-    t.integer "user_id"
+    t.string "make"
+    t.string "model"
+    t.string "year"
+    t.string "mpg"
+    t.string "tank"
+    t.string "gas"
   end
 
   create_table "users", force: :cascade do |t|

@@ -7,7 +7,6 @@ class CreateAutos < ActiveRecord::Migration
       t.string :mpg
       t.string :tank
       t.string :gas
-      t.integer :user_id
     end
   end
 end
